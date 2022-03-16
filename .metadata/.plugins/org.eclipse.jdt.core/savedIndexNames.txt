@@ -1,0 +1,1 @@
+INDEX VERSION 1.131+C:\Users\Davi Moura\OneDrive\Documentos\aulas\Alura\formação java\.metadata\.plugins\org.eclipse.jdt.core
