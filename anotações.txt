@@ -5,6 +5,7 @@ Falamos sobre as principais características da linguagem Java como:
 orientado a objetos
 parecido com C++
 muitas bibliotecas e grande comunidade
+java é estaticamente e fortemente tipada (quer dizer que a variavel precisa ser declarada todas as vezes informando o tipo)
 Além disso, aprendemos:
 
 a diferença entre o código fonte e o Bytecode

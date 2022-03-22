@@ -1,0 +1,8 @@
+public class testeConversao {
+	public static void main(String[] args) {
+		double salario = 6164.90;
+		int valor = (int) salario;	//casting converte um tipo da variavel para outro
+		
+		System.out.println("Conversão de variavel " + valor);
+	}
+}

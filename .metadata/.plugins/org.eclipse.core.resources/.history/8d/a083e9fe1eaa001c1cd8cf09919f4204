@@ -1,0 +1,9 @@
+public class TestaPontoFlutuante {
+	public static void main(String[] args) {
+		double salario = 6164.90;
+		System.out.println("Meu salario é de " + salario);
+		
+		double naoImprimeDouble = 5 / 2;
+		System.out.println("Isso não imprime corretamento o double: " + naoImprimeDouble);
+	}
+}
