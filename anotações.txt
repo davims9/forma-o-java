@@ -61,3 +61,6 @@ ola mundo
 
 C:\Users\Davi Moura\OneDrive\Documentos\aulas\Alura\formação java>java olaMundo
 ola mundo
+
+--> POO: paradigma da orientação a objetos, que é criar unidades de código que combinem os dados associados a determinada informação com as funcionalidades aplicadas aqueles dados (por exemplo, CPF + validação). São os atributos e métodos.
+
