@@ -1,4 +1,4 @@
-public class ContaCorrente extends Conta {
+public class ContaCorrente extends Conta implements Tributavel{
 	
 	public ContaCorrente(int agencia, int numero) {
 		super(agencia, numero);
@@ -14,6 +14,12 @@ public class ContaCorrente extends Conta {
 	public void deposita(double valor) {
 		// TODO Auto-generated method stub
 		super.saldo += valor; //super indica que o atributo vem da classe mãe
+	}
+	
+	
+	@Override
+	public double getValorImposto() {
+		return saldo*0.01;
 	}
 	
 }

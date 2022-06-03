@@ -5,6 +5,8 @@ public class TestaMetodos {
 		
 		Cliente davi = new Cliente();
 		
+		CalculadorImposto calc = new CalculadorImposto();
+		
 		CC.deposita(200);
 		
 		
@@ -32,5 +34,16 @@ public class TestaMetodos {
 		
 		System.out.println("O Saldo da CC é de " + CC.getSaldo());
 		System.out.println("O Saldo da CP é de " + CP.getSaldo());
+		
+		calc.registra(CC);
+		
+		System.out.println(calc.getTotalImposto());
+		
+		SeguroVida seg = new SeguroVida();
+		
+		calc.registra(seg);
+		
+		System.out.println(calc.getTotalImposto());
+		
 	}
 }

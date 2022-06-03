@@ -12,7 +12,7 @@ public class Conta {
 	    this.saldo = 0;
 	    System.out.println("Estou criando uma conta");
 	    
-	    Conta.total++; //poderia ficar com o Conta. e mesmo assim compila 
+	    Conta.total++; //poderia ficar sem o Conta. e mesmo assim compila 
 	}
 	
 	public void deposita(double valor){ // metodo
